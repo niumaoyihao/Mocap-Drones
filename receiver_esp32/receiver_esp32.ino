@@ -206,7 +206,8 @@ void setup() {
   lastSbusSend = micros();
 }
 
-void loop() {
+void loop()
+{
   while (micros() - lastLoopTime < 1e6 / loopFrequency) { yield(); }
   lastLoopTime = micros();
 

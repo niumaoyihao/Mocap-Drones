@@ -86,3 +86,9 @@ void loop() {
     yield();
   }
 }
+
+
+// 这个程序是用于设置ESP32设备作为一个Wi-Fi站点（Station），并使用ESP-NOW协议向其他ESP设备发送数据的。ESP-NOW是一种基于802.11（Wi-Fi）的协议，
+// 它允许ESP设备直接交换数据，而无需通过Wi-Fi网络。
+
+
